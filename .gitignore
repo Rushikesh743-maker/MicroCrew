@@ -1,0 +1,66 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Frontend
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Backend
+backend/target/
+backend/.env
+*.class
+*.jar
+*.war
+*.log
+
+# Java
+.mvn/
+mvnw
+mvnw.cmd
+.hs_err_pid*
+replay_pid*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+supabase/config.toml.bak
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Misc
+.cache/
+.turbo/
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Keep JDK/Maven local installs out of git (arena env)
+jdk21/
+maven/
